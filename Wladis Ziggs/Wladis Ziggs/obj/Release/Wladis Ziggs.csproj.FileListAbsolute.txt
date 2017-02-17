@@ -1,0 +1,12 @@
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Wladis Ziggs\Wladis Ziggs\bin\Release\Wladis Gragas.exe.config
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Wladis Ziggs\Wladis Ziggs\bin\Release\Wladis Gragas.exe
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Wladis Ziggs\Wladis Ziggs\bin\Release\Wladis Gragas.pdb
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Wladis Ziggs\Wladis Ziggs\bin\Release\EloBuddy.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Wladis Ziggs\Wladis Ziggs\bin\Release\EloBuddy.SDK.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Wladis Ziggs\Wladis Ziggs\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Wladis Ziggs\Wladis Ziggs\bin\Release\SharpDX.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Wladis Ziggs\Wladis Ziggs\bin\Release\Newtonsoft.Json.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Wladis Ziggs\Wladis Ziggs\obj\Release\Wladis Gragas.exe
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Wladis Ziggs\Wladis Ziggs\obj\Release\Wladis Gragas.pdb
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Wladis Ziggs\Wladis Ziggs\obj\Release\Wladis Ziggs.csprojResolveAssemblyReference.cache
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Wladis Ziggs\Wladis Ziggs\bin\Release\EloBuddy.Sandbox.dll
