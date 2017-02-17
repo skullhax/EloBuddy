@@ -1,0 +1,15 @@
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\bin\Release\PetBuddy.exe.config
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\bin\Release\PetBuddy.exe
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\bin\Release\PetBuddy.pdb
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\bin\Release\EloBuddy.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\bin\Release\EloBuddy.Sandbox.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\bin\Release\EloBuddy.SDK.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\bin\Release\SharpDX.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\bin\Release\SharpDX.XInput.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\bin\Release\Newtonsoft.Json.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\obj\Release\PetBuddy.csprojResolveAssemblyReference.cache
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\obj\Release\PetBuddy.Properties.Resources.resources
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\obj\Release\PetBuddy.csproj.GenerateResource.Cache
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\obj\Release\PetBuddy.exe
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\PetBuddy\PetBuddy\obj\Release\PetBuddy.pdb

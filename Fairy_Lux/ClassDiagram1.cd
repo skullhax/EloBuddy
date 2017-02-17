@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Fairy_Lux.Active" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Active.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.Autoharass" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Autoharass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.AutoLevel" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAgAA=</HashCode>
+      <FileName>AutoLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.ColorSlide" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECEAAAIAAAAAAAAAAAAABAAAAAAAAAAAAKADQABAA=</HashCode>
+      <FileName>ColorSlider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.Combo" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Combo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.DamageIndicator" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAIAAAABAAAEAAAAAAAAAAAAADAAAAAAI=</HashCode>
+      <FileName>DamageIndicator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.DrawingsManager" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>DrawingsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.EventsManager" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAAEAAAAAAAQAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.Extensions" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAgBABAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.Flee" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Flee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.Harass" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Harass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.KillSteal" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Killsteal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.LaneClear" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LaneClear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.Skin" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.Skins" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.Menus" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAFAgAABIIAgYAAAAEgAEAAAAQAgAAAAAAAAAiA=</HashCode>
+      <FileName>Menus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.ModeManager" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>ModeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.Loader" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fairy_Lux.SpellsManager" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAABAAAAAAAgAoAQA=</HashCode>
+      <FileName>SpellsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
