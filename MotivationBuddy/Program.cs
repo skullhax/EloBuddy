@@ -45,14 +45,15 @@ namespace MotivationBuddy
 
         private static void Game_OnTick(EventArgs args)
         {
-            if (En)
         }
 
         internal static void OnGameNotify(GameNotifyEventArgs args)
         {
             var Sender = args.NetworkId;
+
+            var Ally = EntityManager.Heroes.Allies.FirstOrDefault(e => e.HealthPercent > 20);
             var AllyD = EntityManager.Heroes.Allies.FirstOrDefault(e => e.HealthPercent < 30);
-            var AllyK = EntityManager.Heroes.Allies.FirstOrDefault(e => e.ChampionsKilled > 0);
+            var AllyK = EntityManager.Heroes.Allies.LastOrDefault();
 
             if (FirstMenu["EnableM"].Cast<CheckBox>().CurrentValue)
             {
@@ -80,43 +81,31 @@ namespace MotivationBuddy
                             Chat.Say(Temp2);
                         }
                         break;
-                    case GameEventId.OnEndGame:
-                        Chat.Say("/all Good game, was fun!");
-                        break;
                 }
             }
             if (FirstMenu["EnableT"].Cast<CheckBox>().CurrentValue)
             {
-                var Enemy = EntityManager.Heroes.Enemies.LastOrDefault(e => e.HealthPercent < 20);
-                var EnemyD = EntityManager.Heroes.Enemies.FirstOrDefault();
+                var Enemy = EntityManager.Heroes.Enemies.LastOrDefault(e => e.HealthPercent < 30 && !e.IsDead);
+                var EnemyD = EntityManager.Heroes.Enemies.FirstOrDefault(e => !e.IsDead);
                 var EnemyDD = EntityManager.Heroes.Enemies.First();
+                var EnemyDDD = EntityManager.Heroes.Enemies.Last();
+
+
 
 
 
                 switch (args.EventId)
                 {
                     case GameEventId.OnChampionDie:
-                        if (Sender == Enemy.NetworkId || Sender == EnemyD.NetworkId || Sender == EnemyDD.NetworkId)
+                        if (Sender == Enemy.NetworkId || Sender == EnemyD.NetworkId || Sender == EnemyDD.NetworkId || Sender == EnemyDDD.NetworkId || Sender != myhero.NetworkId)
                         {
-                            string[] Tilt1 = { "/all You're bad", "/all You suck", "/all Nice try", "/all Go play against bots", "/all noob", "/all ez", "/All so bad", "/all learn 2 play", "/all hahahha", "/all bad", "/All rekt" };
+                            string[] Tilt2 = { "/all You're bad", "/all You suck", "/all Nice try", "/all Go play against bots", "/all noob", "/all ez", "/All so bad", "/all learn 2 play", "/all hahahha", "/all bad", "/All rekt" };
 
                             Random RandName = new Random();
-                            string Temp1 = Tilt1[RandName.Next(0, Tilt1.Length)];
+                            string Temp2 = Tilt2[RandName.Next(0, Tilt2.Length)];
 
-                            Chat.Say(Temp1);
+                            Chat.Say(Temp2);
                         }
-                        break;
-                    case GameEventId.OnChampionTripleKill:
-                        if (Sender == Enemy.NetworkId)
-                            Chat.Say("/all Undeserved");
-                        break;
-                    case GameEventId.OnChampionQuadraKill:
-                        if (Sender == Enemy.NetworkId)
-                            Chat.Say("/all Undeserved");
-                        break;
-                    case GameEventId.OnChampionPentaKill:
-                        if (Sender == Enemy.NetworkId)
-                            Chat.Say("/all Undeserved");
                         break;
                 }
             }
