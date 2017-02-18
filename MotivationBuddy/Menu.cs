@@ -23,6 +23,7 @@ namespace MotivationBuddy
             FirstMenu.AddGroupLabel("Settings");
             FirstMenu.Add("EnableM", new CheckBox("- Enable motivation"));
             FirstMenu.Add("EnableT", new CheckBox("- Enable Tilt"));
+            FirstMenu.Add("Delay", new Slider("- Delay Slider", 100, 0, 10000));
         }
     }
 }

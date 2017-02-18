@@ -30,7 +30,7 @@ namespace MotivationBuddy
         public static void Loading_OnLoadingComplete(EventArgs args)
         {
             Chat.Print("Motivation buddy loaded!", System.Drawing.Color.Violet);
-            Chat.Say("/all Good luck and have Fun!");
+            Core.DelayAction(() => Chat.Say("/all Good luck and have Fun!"), FirstMenu["Delay"].Cast<Slider>().CurrentValue);
 
             Menus.CreateMenu();
             Game.OnTick += Game_OnTick;
@@ -67,7 +67,7 @@ namespace MotivationBuddy
                             Random RandName = new Random();
                             string Temp1 = Motivation1[RandName.Next(0, Motivation1.Length)];
 
-                            Chat.Say(Temp1);
+                            Core.DelayAction(() => Chat.Say(Temp1), FirstMenu["Delay"].Cast<Slider>().CurrentValue);
                         }
                         break;
                     case GameEventId.OnChampionDie:
@@ -78,7 +78,7 @@ namespace MotivationBuddy
                             Random RandName = new Random();
                             string Temp2 = Motivation2[RandName.Next(0, Motivation2.Length)];
 
-                            Chat.Say(Temp2);
+                            Core.DelayAction(() => Chat.Say(Temp2), FirstMenu["Delay"].Cast<Slider>().CurrentValue);
                         }
                         break;
                 }
@@ -99,12 +99,12 @@ namespace MotivationBuddy
                     case GameEventId.OnChampionDie:
                         if (Sender == Enemy.NetworkId || Sender == EnemyD.NetworkId || Sender == EnemyDD.NetworkId || Sender == EnemyDDD.NetworkId || Sender != myhero.NetworkId)
                         {
-                            string[] Tilt2 = { "/all You're bad", "/all You suck", "/all Nice try", "/all Go play against bots", "/all noob", "/all ez", "/All so bad", "/all learn 2 play", "/all hahahha", "/all bad", "/All rekt" };
+                            string[] Tilt2 = { "/all You're bad", "/all You suck", "/all Nice try", "/all Go play against bots", "/all noob", "/all ez", "/All so bad", "/all learn 2 play", "/all hahahha", "/all bad", "/All rekt", "/All boosted" };
 
                             Random RandName = new Random();
                             string Temp2 = Tilt2[RandName.Next(0, Tilt2.Length)];
 
-                            Chat.Say(Temp2);
+                            Core.DelayAction(() => Chat.Say(Temp2), FirstMenu["Delay"].Cast<Slider>().CurrentValue);
                         }
                         break;
                 }
