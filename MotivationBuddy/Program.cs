@@ -30,7 +30,7 @@ namespace MotivationBuddy
         public static void Loading_OnLoadingComplete(EventArgs args)
         {
             Chat.Print("Motivation buddy loaded!", System.Drawing.Color.Violet);
-            Core.DelayAction(() => Chat.Say("/all Good luck and have Fun!"), FirstMenu["Delay"].Cast<Slider>().CurrentValue);
+            Chat.Say("/all Good luck and have Fun!");
 
             Menus.CreateMenu();
             Game.OnTick += Game_OnTick;
