@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Media;
 using EloBuddy;
@@ -30,7 +30,7 @@ namespace MotivationBuddy
         public static void Loading_OnLoadingComplete(EventArgs args)
         {
             Chat.Print("Motivation buddy loaded!", System.Drawing.Color.Violet);
-            Chat.Say("/all Good luck and have Fun!");
+            Chat.Say("/all Bom jogo e boa sorte a todos!");
 
             Menus.CreateMenu();
             Game.OnTick += Game_OnTick;
@@ -40,7 +40,7 @@ namespace MotivationBuddy
 
         private static void Game_OnEnd(EventArgs args)
         {
-            Chat.Say("Good game, I had much fun!");
+            Chat.Say("Bom jogo :) todos honrados");
         }
 
         private static void Game_OnTick(EventArgs args)
@@ -62,7 +62,7 @@ namespace MotivationBuddy
                     case GameEventId.OnChampionKill:
                         if ((Sender == AllyK.NetworkId || Sender == AllyD.NetworkId ) && Sender != myhero.NetworkId)
                         {
-                            string[] Motivation1 = { "Good Job!", "Nice man", "really nice", "well done", "well played", "gj", "wp", "gj wp", "well done", "well done mate", "nice", "nice play", "You did good there", "let's push", "good job", "nice work", "good play there bro", "we are going to win this", "we will win" };
+                            string[] Motivation1 = { "Bom trabalho", "Nice man", "Boa", "Boa cara", "well played", "gj", "wp", "Joga muito", "Solado fion", "Continua assim", "Booa :3", "Boa jogada", "Tá jogando muito", "Go ganhar", "good job", "nice!", "Boa bro", "Vamos ganhar isso!", "Continuem em frente" };
 
                             Random RandName = new Random();
                             string Temp1 = Motivation1[RandName.Next(0, Motivation1.Length)];
@@ -80,7 +80,7 @@ namespace MotivationBuddy
                     case GameEventId.OnChampionDie:
                         if ((Sender == AllyD.NetworkId || Sender == AllyK.NetworkId) && Sender != myhero.NetworkId)
                         {
-                            string[] Motivation2 = { "Next time you get him!", "Nice try, next time maybe", "Don't get greedy", "Be less agressive", "Don't lose motivation", "Don't give up", "bad luck", "come on let's team fight" };
+                            string[] Motivation2 = { "Sem desanimar!", "Você consegue!", "Continua firme", "Tenta agressivar menos", "Não perca a motivação", "Sem desistir!", "Vai lá, a lane é sua!", "Vamos jogar em time" };
 
                             Random RandName = new Random();
                             string Temp2 = Motivation2[RandName.Next(0, Motivation2.Length)];
@@ -107,7 +107,7 @@ namespace MotivationBuddy
                     case GameEventId.OnChampionDie:
                         if (Sender == Enemy.NetworkId || Sender == EnemyD.NetworkId || Sender == EnemyDD.NetworkId || Sender == EnemyDDD.NetworkId || Sender != myhero.NetworkId)
                         {
-                            string[] Tilt2 = { "/all You're bad", "/all You suck", "/all Nice try", "/all Go play against bots", "/all noob", "/all ez", "/All so bad", "/all learn 2 play", "/all hahahha", "/all bad", "/All rekt", "/All boosted", "/all wood V", "/all bronze V", "/all What is this elo", "/all xd", "/all so ez", "/all l2p","/all boring","/all salt", "/all tilt", "/all so bad lmao", "/all are you trolling or just bad?" };
+                            string[] Tilt2 = { "/all Solado maluco", "/all ??????????????", "/all FON", "/all De frente ou solado?", "/all Lagou Aqui Lagou Ai?", "/all izi pizi", "/All achei fácil", "/all learn 2 play", "/all dashudqwekqwo", "/all opa", "/All rekt", "/All é de plasma?", "/all madeira V", "/all bronze 6", "/all é xalengi", "/all xd", "/all fon fon fon", "/all eoq","/all q lamentavel","/all salty", "/all ta tiltadinho?", "/all lmao", "/all Tá trollando?" };
 
                             Random RandName = new Random();
                             string Temp2 = Tilt2[RandName.Next(0, Tilt2.Length)];
